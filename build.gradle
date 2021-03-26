@@ -105,7 +105,7 @@ subprojects {
         maven {url "https://maven.enginehub.org/repo/"}
         maven {url "https://repo.maven.apache.org/maven2"}
         maven {url "http://ci.frostcast.net/plugin/repository/everything"}
-        maven {url "http://repo.spongepowered.org/maven"}
+        maven {url "https://repo.spongepowered.org/maven"}
         maven {url "http://dl.bintray.com/tastybento/maven-repo"}
         maven {url "https://repo.inventivetalent.org/content/groups/public/"}
         maven {url "https://store.ttyh.ru/libraries/"}

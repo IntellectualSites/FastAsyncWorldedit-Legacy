@@ -3,9 +3,9 @@ buildscript {
         jcenter()
         maven { url = 'https://plugins.gradle.org/m2' }
         maven {url = "https://oss.sonatype.org/content/repositories/snapshots/"}
-        maven {url = "http://repo.minecrell.net/snapshots"}
-        maven { url = "http://files.minecraftforge.net/maven" }
-        maven { url = "http://repo.minecrell.net/releases" }
+        maven {url = "https://repo.minecrell.net/snapshots"}
+        maven { url = "https://files.minecraftforge.net/maven" }
+        maven { url = "https://repo.minecrell.net/releases" }
         maven { url = "https://oss.sonatype.org/content/repositories/snapshots/" }
     }
     dependencies {
@@ -30,7 +30,7 @@ repositories {
     flatDir {dirs 'lib'}
     maven {
         name = 'forge'
-        url = 'http://files.minecraftforge.net/maven'
+        url = 'https://files.minecraftforge.net/maven'
     }
     maven {
         name = "Sponge"
